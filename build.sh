@@ -2,8 +2,8 @@
 
 set -e
 
-# install os dependencies
+# install dependencies
 apk add --no-cache gcc musl-dev
 
 # build
-pip wheel -vvv --no-deps --requirement requirements.txt
+pip wheel --no-deps --requirement requirements.txt
